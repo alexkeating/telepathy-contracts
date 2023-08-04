@@ -5,7 +5,7 @@ import {Bytes32} from "src/libraries/Typecast.sol";
 import {Message} from "src/libraries/Message.sol";
 import {ITelepathyRouterV2} from "src/amb-v2/interfaces/ITelepathy.sol";
 import {TelepathyStorageV2} from "src/amb-v2/TelepathyStorage.sol";
-import {IFeeVault} from "@telepathy-v2/payment/interfaces/IFeeVault.sol";
+import {IFeeVault} from "src/amb-v2/interfaces/IFeeVault.sol";
 
 /// @title Source Arbitrary Message Bridge
 /// @author Succinct Labs

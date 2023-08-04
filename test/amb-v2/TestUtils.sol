@@ -14,7 +14,7 @@ import {Bytes32} from "src/libraries/Typecast.sol";
 import {TelepathyEventVerifier} from "src/amb-v2/verifier/TelepathyEventVerifier.sol";
 import {TelepathyAttestationVerifier} from "src/amb-v2/verifier/TelepathyAttestationVerifier.sol";
 import {VerifierType} from "src/amb-v2/verifier/interfaces/IMessageVerifier.sol";
-import {SuccinctFeeVault} from "@telepathy-v2/payment/SuccinctFeeVault.sol";
+import {SuccinctFeeVault} from "test/amb-v2/SuccinctFeeVault.sol";
 
 library WrappedInitialize {
     function initializeRouter(
